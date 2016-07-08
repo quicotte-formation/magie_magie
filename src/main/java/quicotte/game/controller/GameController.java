@@ -22,7 +22,7 @@ public class GameController {
     @RequestMapping(value = "list", method = RequestMethod.GET)
     public String list(){
         
-        return "game_list";
+        return "game/list";
     }
     
 //    @RequestMapping(value="find/{id}", method = RequestMethod.GET)
