@@ -4,14 +4,23 @@
     Author     : tom
 --%>
 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <c:import url="_HEAD.jsp" />
     </head>
     <body>
-        <h1>YO</h1>
+        <div class="title">
+            <c:import url="_TITLE.jsp" />
+        </div>
+        <div class="menu">
+            <c:import url="_MENU.jsp" />
+        </div>
+        <div class="content"></div>
+        <div class="footer">
+            <c:import url="_FOOTER.jsp" />
+        </div>
     </body>
 </html>
