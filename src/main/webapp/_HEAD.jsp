@@ -6,7 +6,7 @@
     
     var app=angular.module("myApp", []);
     
-    app.controller("myController", ["$scope", "$http", function($scope, $http){
+    app.controller("myController", ["$scope", "$http", "$interval", function($scope, $http, $interval){
             
             $scope.titre = "Welcome";
     }]);
