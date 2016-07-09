@@ -1,4 +1,2 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<h1>
-    Magie-Magie ; )
-</h1>
+Copyright 2016 - Quicotte Games
